@@ -1,4 +1,5 @@
 ﻿#include util/Methods.ahk
+#include util/JAHK.ahk
 
 3::ExitApp
 
@@ -44,7 +45,7 @@ GuiControl,,MT, %ActiveText%
 		} else {
 			SendInput, {Up down}{Rightdown}
 		Sleep, 50
-		;~ SendInput, {Up up}{Right up}
+		SendInput, {Up up}{Right up}
 		MouseMove, 0, 0
 			continue
 		}

@@ -1,6 +1,6 @@
 ﻿3::ExitApp
 
-1::
+2::
 Loop {
 Random, x, 30, 70
 Random, b, 600, 800
@@ -26,11 +26,9 @@ h=8500
 	SendInput, {F1}
 	MouseClickDrag, left, 630, 368, 672, 475, 2
 	Sleep, x
-	Loop, 60 {
-		Random, z, 10, 50
-		mouseclick, left, 673, 477
-		Sleep, z
-		ToolTip, %z%
-		mouseclick, left, 713, 476
-	}
+	mouseclick, left, 673, 477
+	mouseclick, left, 713, 476
+	Sleep, 1000
+	Send, 1
+	Sleep, h
 }

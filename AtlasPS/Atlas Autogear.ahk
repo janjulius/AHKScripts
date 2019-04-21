@@ -30,7 +30,7 @@ dir1 = %A_ScriptDir%\autogear\gear.txt
             Snore(10)
             Send, %gearName%
             Send, {enter}
-            Snore(600)
+            Snore(800)
         }
         amount := amntArr[A_Index]
         if (amount == 1) {

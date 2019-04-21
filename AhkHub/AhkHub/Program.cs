@@ -16,7 +16,9 @@ namespace AhkHub
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 f1 = new Form1();
+            f1.Text = Constants.FORMS_TITLE;
+            Application.Run(f1);
         }
     }
 }

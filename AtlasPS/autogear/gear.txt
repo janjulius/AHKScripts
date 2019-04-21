@@ -1,3 +1,2 @@
-amethyst bolt tips,1
-dragon med helm,1
-ashes,1
+twisted bow,1
+elysian spirit shield,1

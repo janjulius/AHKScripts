@@ -1,4 +1,7 @@
-﻿
+﻿;FixedScreenSizeX = 781
+;FixedScreenSizeY = 541
+
+;teleports to last location onthe teleporter at home
 TeleportToLastLocation(){
     Loop{
 		PixelSearch, locx, locy, 251, 88, 320,216, 0x824E77, 3, Fast
@@ -15,9 +18,10 @@ TeleportToLastLocation(){
 	}
 }
 
+;teleports the player home 
 TeleportHome(){
     Send, {F4}
-		Sleep, 200
+		Sleep, 600
 		
 		ImageSearch hx, hy, 0,0,764,501,%A_ScriptDir%\img\hometeleport.png
 		
@@ -29,7 +33,6 @@ TeleportHome(){
 
 CraftingCapeTeleport(){
 	Send, {F2}
-	Sleep, 20
 		ImageSearch, cx, cy, 0,0,781,541,%A_ScriptDir%\img\craftcape.png
 		
 		if(cx>0){

@@ -1,4 +1,5 @@
 #include util/JAHK.ahk
+#include util/Methods.ahk
 
 1::
 ClickRight()
@@ -8,4 +9,7 @@ ClickLeft()
 return
 3::
 ClickRight(0, 100)
+return
+4::
+CraftingCapeTeleport()
 return
