@@ -6,7 +6,7 @@ Return
 
 1::
 Loop{
-    PixelSearch, cx, cy, 0, 0, FixedScreenSizeX, FixedScreenSizeY, 0x1F639A, 3, Fast
+    PixelSearch, cx, cy, 0, 0, FixedScreenSizeX, FixedScreenSizeY, 0x1F507B, 3, Fast
     
     if(cx > 0){
         ClickRight(cx, cy, 0)
